@@ -1,0 +1,34 @@
+{
+  "name": "@stackcrafters/config-babel",
+  "description": "A package that provides a base babel configuration, with babel, eslint, prettier, jest",
+  "version": "0.0.1",
+  "main": "config/index.js",
+  "files": [
+    "/config",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stackcrafters/config-babel.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "restricted"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/eslint-parser": "^7.11.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2",
+    "prettier": "^2.1.1"
+  }
+}
