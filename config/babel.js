@@ -1,4 +1,19 @@
 module.exports = {
-  plugins: ["source-map-support", "@babel/plugin-proposal-class-properties"],
-  presets: [["@babel/preset-env", { targets: { node: "current" } }]],
+  plugins: [
+    ["source-map-support"],
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        decoratorsBeforeExport: true,
+      },
+    ],
+    ["@babel/plugin-proposal-class-properties"],
+    ["@babel/plugin-proposal-optional-chaining"],
+  ],
+  presets: [
+    [
+      "@babel/preset-env",
+      { modules: "commonjs", targets: { node: "current" } },
+    ],
+  ],
 };
