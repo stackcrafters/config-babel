@@ -13,7 +13,7 @@ add using the following:
 
 Then create the following files in the base of your project:
 
-.babelrc.js
+babel.config.js
 
 ```
 module.exports = require('@stackcrafters/config-babel').babel;
