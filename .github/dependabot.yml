@@ -4,8 +4,15 @@
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+registries:
+  npm-github:
+    type: npm-registry
+    url: https://npm.pkg.github.com/stackcrafters
+    token: ${{secrets.SC_NPM_REGISTRY}}
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
+    registries:
+      - npm-github
     schedule:
       interval: "daily"
