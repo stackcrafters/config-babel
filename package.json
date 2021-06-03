@@ -1,7 +1,7 @@
 {
   "name": "@stackcrafters/config-babel",
   "description": "A package that provides a base babel configuration, with babel, eslint, prettier, jest",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "config/index.js",
   "files": [
     "/config",
