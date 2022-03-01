@@ -44,7 +44,7 @@
     "rimraf": "^3.0.2",
     "source-map-support": "^0.5.19",
     "ts-jest": "^27.0.5",
-    "typescript": "^4.3.5"
+    "typescript": "^4.6.2"
   },
   "scripts": {
     "update_deps": "npx npm-check-updates -u && npm install && npm update"
