@@ -9,7 +9,8 @@ module.exports = {
     ],
     ["@babel/plugin-proposal-class-properties"],
     ["@babel/plugin-proposal-optional-chaining"],
-    ['@babel/plugin-transform-typescript']
+    ['@babel/plugin-transform-typescript'],
+    ['@babel/plugin-proposal-private-methods']
   ],
   presets: [
     [
