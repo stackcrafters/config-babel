@@ -30,7 +30,7 @@
     "@babel/types": "^7.20.7",
     "@types/jest": "^29.2.5",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
-    "@typescript-eslint/parser": "^5.48.0",
+    "@typescript-eslint/parser": "^5.54.0",
     "babel-jest": "^29.3.1",
     "babel-loader": "^9.1.0",
     "babel-plugin-source-map-support": "^2.2.0",
